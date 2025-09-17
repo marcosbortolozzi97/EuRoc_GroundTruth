@@ -13,21 +13,21 @@ las trayectorias de la IMU vs la camara.
 
 - Luego de las descarga del dataset en el link anterior (Machine Hall 01), recomendamos que la carpeta extraída MH_01_easy permanezca en el home.
 - En Ubuntu 24.04 no es posible instalar las librerias a utilizar (matplotlib, transforms3d) con el comando pip3, se optó por utilizar un entorno virtual.
-  Se debe crear el entorno virtual mediante los siguientes comandos en la terminal (aparecerá una carpeta euroc_env):
-    cd ~/MH_01_easy
-    python3 -m venv euroc_env
-    source euroc_env/bin/activate
-    pip install matplotlib transforms3d pandas pyyaml  
-- Se descargan los archivos .py del repositorio dentro de la carpeta MH_01_easy
+  Se debe crear el entorno virtual mediante los siguientes comandos en la terminal (aparecerá una carpeta llamada euroc_env dentro de MH_01_easy):  
+      &nbsp;&nbsp;&nbsp;&nbsp;cd ~/MH_01_easy  
+      &nbsp;&nbsp;&nbsp;&nbsp;python3 -m venv euroc_env  
+      &nbsp;&nbsp;&nbsp;&nbsp;source euroc_env/bin/activate  
+      &nbsp;&nbsp;&nbsp;&nbsp;pip install matplotlib transforms3d 
+- Se descargan los archivos .py del repositorio dentro de la carpeta MH_01_easy.
 
 ## Ejecución
 
-- Se posiciona sobre la carpeta MH_01_easy
-    cd ~/MH_01_easy
-- Se activa el entorno virtual
-    source euroc_env/bin/activate
-- Se ejecuta
-    python nombre_archivo.py   ejemplo: python left_cam.py
--Cuando finalice la ejecucion o se quiera salir de este modo
-    deactivate
-    cd
+- Se posiciona sobre la carpeta MH_01_easy  
+    &nbsp;&nbsp;&nbsp;&nbsp;cd ~/MH_01_easy  
+- Se activa el entorno virtual  
+    &nbsp;&nbsp;&nbsp;&nbsp;source euroc_env/bin/activate
+- Se ejecuta  
+    &nbsp;&nbsp;&nbsp;&nbsp;python nombre_archivo.py   ejemplo: python left_cam.py
+- Cuando finalice la ejecucion o se quiera salir de este modo  
+    &nbsp;&nbsp;&nbsp;&nbsp;deactivate  
+    &nbsp;&nbsp;&nbsp;&nbsp;cd
