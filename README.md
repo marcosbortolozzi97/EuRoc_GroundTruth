@@ -30,5 +30,5 @@
 
 La ejecución de los scripts se corresponden con el enunciado de la siguiente manera  
 &nbsp;&nbsp;&nbsp;&nbsp;a) left_cam.py  
-&nbsp;&nbsp;&nbsp;&nbsp;b) left_cam_nanoprecision.py
+&nbsp;&nbsp;&nbsp;&nbsp;b) left_cam_nanoprecision.py  
 &nbsp;&nbsp;&nbsp;&nbsp;c) images_groundtruth.py
