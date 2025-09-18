@@ -3,7 +3,7 @@
 - Ubuntu 24.04 (recomendado)
 - Python 3.10+
   
-## Trabajo Preliminar 
+## Trabajo Prejecución 
 
 - Luego de las descarga del dataset en [EuRoC MAV](https://projects.asl.ethz.ch/datasets/kmavvisualinertialdatasets) (Machine Hall 01), recomendamos que la carpeta extraída MH_01_easy permanezca en el home.
 - En Ubuntu 24.04 no es posible instalar las librerias a utilizar (matplotlib, transforms3d) con el comando pip3, se optó por utilizar un entorno virtual.
